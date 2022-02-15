@@ -12,7 +12,7 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/qiaozhi94@master
+      - uses: actions/checkout@master
       - name: Update gist
         uses: qiaozhi94/waka-box@master
         env:
