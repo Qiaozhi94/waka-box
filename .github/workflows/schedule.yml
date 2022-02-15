@@ -1,5 +1,10 @@
 name: Update gist with WakaTime stats
+
 on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
   schedule:
     # Runs at 12am UTC
     - cron: '0 0 * * *'
